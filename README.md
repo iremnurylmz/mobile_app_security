@@ -92,16 +92,16 @@ ADB'yi kullanmaya başlamak için şu adımları izleyin:
 - **Bağlı cihazları listele:**
   ```bash
   adb devices
-    ```
+  ```
     Bağlı Android cihazları listeler.
 
-  - **Uygulama yükle:**  
-    ```bash
+- **Uygulama yükle:**  
+   ```bash
     adb install <apk_dosya_yolu>
-    ```
-    Cihaza APK yükler.
+   ```
+  Cihaza APK yükler.
 
-  - **Dosya aktarımı:**  
+- **Dosya aktarımı:**  
     - Bilgisayardan cihaza dosya aktarmak için:
       ```bash
       adb push <yerel_dosya_yolu> <cihaz_dizini>
