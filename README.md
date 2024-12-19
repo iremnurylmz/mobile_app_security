@@ -200,7 +200,7 @@ Kaynak için [tıklayın](https://erenn-uygun.medium.com/android-i%CC%87%C5%9Fle
 ## Frida Server
 
 - **Nedir?**  
-  Frida, dinamik analiz ve canlı müdahale yapmanıza olanak tanıyan güçlü bir araçtır. Uygulamalar üzerinde JavaScript kodu ekleyerek, bu uygulamaların davranışlarını inceleyebilir ve güvenlik açıklarını tespit edebilirsiniz. Frida, metotları yeniden tanımlamanıza ve bypass etmenize       imkan tanır. Ayrıca, SSL pinning ve root algılama gibi güvenlik önlemlerini aşmanıza yardımcı olur.
+  Frida, dinamik analiz ve canlı müdahale yapmanıza olanak tanıyan güçlü bir araçtır. Uygulamalar üzerinde JavaScript kodu ekleyerek, bu uygulamaların davranışlarını inceleyebilir ve güvenlik açıklarını tespit edebilirsiniz. Frida, metotları yeniden tanımlamanıza ve bypass etmenize imkan tanır. Ayrıca, SSL Pinning ve Root Detection gibi güvenlik önlemlerini aşmanıza yardımcı olur.
 
 - **İndir**:  
   Python kullanarak Frida Tools'u yükleyin:
