@@ -200,7 +200,7 @@ Kaynak için [tıklayın](https://erenn-uygun.medium.com/android-i%CC%87%C5%9Fle
 ## Frida
 
 - **Nedir?**  
-  Frida, dinamik analiz ve canlı müdahale yapmanıza olanak tanıyan güçlü bir araçtır. Uygulamalar üzerinde JavaScript kodu ekleyerek, bu uygulamaların davranışlarını inceleyebilir ve güvenlik açıklarını tespit edebilirsiniz. Frida, metotları yeniden tanımlamanıza ve SSL Pinning ve Root Detection gibi güvenlik önlemlerini aşmanıza yardımcı olur.
+  Frida, dinamik analiz ve canlı müdahale yapmanıza olanak tanıyan güçlü bir araçtır. Uygulamalar üzerinde JavaScript kodu ekleyerek, bu uygulamaların davranışlarını inceleyebilir ve güvenlik açıklarını tespit edebilirsiniz. Frida, metotları yeniden tanımlamanıza, SSL Pinning ve Root Detection gibi güvenlik önlemlerini aşmanıza yardımcı olur.
 
 - **İndir**:  
   Python kullanarak Frida Tools'u yükleyin:
