@@ -8,7 +8,7 @@ Bu rehber, mobil uygulama güvenliği testleri için gerekli temel araçların n
   - [Genymotion](#genymotion)
   - [ADB](#adb)
   - [Burp Suite](#burp-suite)
-  - [Frida Server](#frida)
+  - [Frida Server](#frida-server)
   - [Jadx GUI](#jadx-gui)
   - [MobSF](#mobsf)
   - [Ghidra](#ghidra)
@@ -57,11 +57,13 @@ Bu adımları takip ederek Genymotion'u kolayca kurup Android uygulamalarınız�
 
 ---
 
-## ADB (Android Debug Bridge)
+## ADB 
+(Android Debug Bridge)
 
 - **Nedir?**
   
-  Android Debug Bridge (ADB), Android cihazlar ile bilgisayar arasında iletişim kurmayı sağlayan bir komut satırı aracıdır. ADB ile uygulama yükleme, hata ayıklama, ekran görüntüsü alma, video kaydı yapma ve dosya aktarımı gibi işlemleri kolayca gerçekleştirilebilirsiniz.
+  Android Debug Bridge (ADB), Android bir cihazla iletişim kurmanızı sağlayan, çok yönlü bir komut satırı aracıdır. ADB komutları, ile uygulama yükleme, hata 
+  ayıklama, ekran görüntüsü alma, video kaydı yapma ve dosya aktarımı gibi işlemleri kolayca gerçekleştirebiliriz.
 
 - **İndir**: [ADB İndir](https://developer.android.com/tools/releases/platform-tools)
 
@@ -70,7 +72,7 @@ Bu adımları takip ederek Genymotion'u kolayca kurup Android uygulamalarınız�
 ADB'yi kullanmaya başlamak için şu adımları izleyin:
 
 1. **ADB aracını indirin** ve zip dosyasını çıkartın.
-2. **ADB dizinini PATH ortam değişkenine ekleyin**. Bunun için şu adımları izleyin: 
+2. **ADB dizinini PATH ortam değişkenine ekleyin**. Bunun için; 
     - Başlat Menüsü'nde **"Ortam Değişkenlerini Düzenle"** yazın ve çıkan sonuca tıklayın.
     - Açılan pencerede **Sistem Özellikleri** penceresinde, alt kısımda **Ortam Değişkenleri** butonuna tıklayın.
     - **Kullanıcı Değişkenleri** kısmında **Path**'i bulun ve **Düzenle** butonuna tıklayın.
@@ -197,10 +199,10 @@ Kaynak için [tıklayın](https://erenn-uygun.medium.com/android-i%CC%87%C5%9Fle
   ---
 
 
-## Frida
+## Frida Server
 
 - **Nedir?**  
-  Frida, dinamik analiz ve canlı müdahale yapmanıza olanak tanıyan güçlü bir araçtır. Uygulamalar üzerinde JavaScript kodu ekleyerek, bu uygulamaların davranışlarını inceleyebilir ve güvenlik açıklarını tespit edebilirsiniz. Frida, metotları yeniden tanımlamanıza, SSL Pinning ve Root Detection gibi güvenlik önlemlerini aşmanıza yardımcı olur.
+  Frida, dinamik analiz ve canlı müdahale yapmanıza olanak tanıyan güçlü bir araçtır. Uygulamalar üzerinde JavaScript kodu ekleyerek, bu uygulamaların davranışlarını inceleyebilir ve güvenlik açıklarını tespit edebilirsiniz. Frida, metotları yeniden tanımlamanıza ve bypass etmenize       imkan tanır. Ayrıca, SSL pinning ve root algılama gibi güvenlik önlemlerini aşmanıza yardımcı olur.
 
 - **İndir**:  
   Python kullanarak Frida Tools'u yükleyin:
