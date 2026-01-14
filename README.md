@@ -181,6 +181,18 @@ Bu işlemler sonucunda 9a5ba575.0 adlı dosyamızı oluşturuyoruz. Şimdi ise b
 
 Kurulup kurulmadığını android sisteminize girerek bakabilirsiniz. Ekran görüntüsü için [tıklayın](https://github.com/user-attachments/assets/12eecdf2-a251-48db-9905-15ac5309073d) Sistem hakları ile başarılı bir şekilde kurulduğunu görebiliriz. <br>
 
+NOT: eğer şöyle bir hata alırsanız:
+ ```bash
+mv: /system/etc/security/cacerts//9a5ba575.0: Read-only file system
+ ```
+Çözüm:
+ ```bash
+adb root
+adb remount
+ ```
+Beklenen çıktı : remount succeeded
+Sonrasında tekrardan mv /sdcard/9a5ba575.0 tekrar mv adımını yapabilirsiniz.
+
 Son olarakta Android cihazımızdan ya da emulatörümüzden trafikleri yönlendirmek istediğimiz bilgisayara doğru proxy ayarlarını girmemiz gerekiyor.<br>
 
 Android cihazınızda Burp Suite proxy ayarlarını yapmak için:
