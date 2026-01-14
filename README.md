@@ -191,7 +191,7 @@ adb root
 adb remount
  ```
 Beklenen çıktı : remount succeeded
-Sonrasında tekrardan mv /sdcard/9a5ba575.0 tekrar mv adımını yapabilirsiniz.
+Sonrasında tekrar mv adımını yapabilirsiniz.
 
 Son olarakta Android cihazımızdan ya da emulatörümüzden trafikleri yönlendirmek istediğimiz bilgisayara doğru proxy ayarlarını girmemiz gerekiyor.<br>
 
