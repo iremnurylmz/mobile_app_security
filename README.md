@@ -223,17 +223,22 @@ Kaynak için [tıklayın](https://erenn-uygun.medium.com/android-i%CC%87%C5%9Fle
   pip install frida-tools
  ```
 
-- Frida’yı bilgisayarınıza yükledikten sonra Android cihazınıza uyumlu olan Frida Server'ı yüklemeniz gerekmektedir. Android cihazınıza uygun Frida Server'ı indirmek için cihazınızın mimarisini kontrol edin:
+- Frida’yı bilgisayarınıza yükledikten sonra Android cihazınıza uyumlu olan Frida Server'ı yüklemeniz gerekmektedir. Android cihazınıza uygun Frida Server'ı indirmek için öncelikle aşağıdaki ilk komutla mimariyi sonrasında ikinci komutla frida versiyonunu öğrenin:
 
 ```bash
 adb shell getprop ro.product.cpu.abi
 ```
 
-- Komutun çıktısındaki mimariye göre uygun Frida Server'ı [buradan](https://github.com/frida/frida/releases/tag/16.4.10) indirilebilirsiniz. Ekran görüntüsü için [tıklayın](https://github.com/user-attachments/assets/720031d9-0702-42c9-aea6-f46a466f866f)
+```bash
+frida --version
+```
+- Örnek olarak ilk komut x86_64, ikinci komut 17.23.1 çıktıysa arama linki şu şekilde olmalıdır: https://github.com/frida/frida/releases/tag/17.23.1
+- devamında uygun mimari seçilerek indirilir : https://github.com/frida/frida/releases/download/17.23.1/frida-server-17.23.1-android-x86_64.xz
+  
 - İndirilen Frida Server'ı ADB push komutu ile Android cihazınıza aktarın:
 
 ```bash
-adb push frida-server-16.4.10-android-x86_64 /data/local/tmp/frida-server
+adb push frida-server-17.23.1-android-x86_64 /data/local/tmp/frida-server
 ```
 - Daha sonra ilgili Frida Server ajanına gerekli yetkiler verin.
   
